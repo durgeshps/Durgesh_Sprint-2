@@ -1,0 +1,519 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-10-13T07:07:20.472Z",
+        "line": 2,
+        "name": "I want to enter Employee ID.",
+        "description": "",
+        "id": "employee-id;i-want-to-enter-employee-id.",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 31359558800,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "I have already logged in OrangeHrm and opened Add Employee Section",
+            "match": {
+              "location": "StepDefinition.EmployeeIdDef.i_have_already_logged_in_orange_hrm_and_opened_add_employee_section()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 395369700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I have entered Full Name and Employee ID",
+            "match": {
+              "location": "StepDefinition.EmployeeIdDef.i_have_entered_full_name_and_employee_id()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3414968900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I clicked on Save Button",
+            "match": {
+              "location": "StepDefinition.EmployeeIdDef.i_clicked_on_save_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 997300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "New Employee should get added",
+            "match": {
+              "location": "StepDefinition.EmployeeIdDef.new_employee_should_get_added()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Employee ID",
+    "description": "",
+    "id": "employee-id",
+    "keyword": "Feature",
+    "uri": "file:src/main/resources/Features/EmployeeId.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-10-13T07:07:55.800Z",
+        "line": 2,
+        "name": "I want to check the Login Details Checkbox",
+        "description": "",
+        "id": "login-details-checkbox;i-want-to-check-the-login-details-checkbox",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 28843888600,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "Already logging in Orange Hrm and inside Add Employee Section",
+            "match": {
+              "location": "StepDefinition.LoginDetDef.already_logging_in_orange_hrm_and_inside_add_employee_section()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 487684800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I enter Full Name, Employee ID, Add Photograph, Click on Login Details",
+            "match": {
+              "location": "StepDefinition.LoginDetDef.i_enter_full_name_employee_id_add_photograph_click_on_login_details()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 90757800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Clicking on Save Button",
+            "match": {
+              "location": "StepDefinition.LoginDetDef.clicking_on_save_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "New Employee should be adding here",
+            "match": {
+              "location": "StepDefinition.LoginDetDef.new_employee_should_be_adding_here()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login Details Checkbox",
+    "description": "",
+    "id": "login-details-checkbox",
+    "keyword": "Feature",
+    "uri": "file:src/main/resources/Features/LoginDetails.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-10-13T07:08:25.242Z",
+        "line": 2,
+        "name": "I want to add First Name, Middle Name, Last Name",
+        "description": "",
+        "id": "full-name;i-want-to-add-first-name--middle-name--last-name",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 36913189900,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "Already logged in OrangeHrm and opened Add Employee Section",
+            "match": {
+              "location": "StepDefinition.NameDef.already_logged_in_orange_hrm_and_opened_add_employee_section()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 392481300,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I enter First Name, Middle Name, Last Name",
+            "match": {
+              "location": "StepDefinition.NameDef.i_enter_first_name_middle_name_last_name()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 103723000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I click on Save Button",
+            "match": {
+              "location": "StepDefinition.NameDef.i_click_on_save_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "New Employee should be added",
+            "match": {
+              "location": "StepDefinition.NameDef.new_employee_should_be_added()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Full Name",
+    "description": "",
+    "id": "full-name",
+    "keyword": "Feature",
+    "uri": "file:src/main/resources/Features/Name.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-10-13T07:09:02.658Z",
+        "line": 2,
+        "name": "I want to add the password for the new employee",
+        "description": "",
+        "id": "add-password;i-want-to-add-the-password-for-the-new-employee",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 63030972000,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "I am already logged in Orange Hrm and inside Add Employee Section",
+            "match": {
+              "location": "StepDefinition.PassDef.i_am_already_logged_in_orange_hrm_and_inside_add_employee_section()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 671260600,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I enter Full Name, Employee ID, Add Photograph, Click on Login Details",
+            "match": {
+              "location": "StepDefinition.LoginDetDef.i_enter_full_name_employee_id_add_photograph_click_on_login_details()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 414924500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Enter Username, Password and Confirm Password",
+            "match": {
+              "location": "StepDefinition.PassDef.enter_username_password_and_confirm_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 109226500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I am Clicking on Save Button",
+            "match": {
+              "location": "StepDefinition.PassDef.i_am_clicking_on_save_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "New Employee should get add here.",
+            "match": {
+              "location": "StepDefinition.PassDef.new_employee_should_get_add_here()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Add Password",
+    "description": "",
+    "id": "add-password",
+    "keyword": "Feature",
+    "uri": "file:src/main/resources/Features/Pass.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-10-13T07:10:06.898Z",
+        "line": 2,
+        "name": "I want to add Photograph",
+        "description": "",
+        "id": "photograph;i-want-to-add-photograph",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "Already log in Orange Hrm and inside Add Employee Section",
+            "match": {
+              "location": "StepDefinition.PhotoDef.already_log_in_orange_hrm_and_inside_add_employee_section()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I enter Full Name, Employee ID, Add Photograph",
+            "match": {
+              "location": "StepDefinition.PhotoDef.i_enter_full_name_employee_id_add_photograph()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I Clicking on Save Button",
+            "match": {
+              "location": "StepDefinition.PhotoDef.i_clicking_on_save_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "New Employee should add here",
+            "match": {
+              "location": "StepDefinition.PhotoDef.new_employee_should_add_here()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Photograph",
+    "description": "",
+    "id": "photograph",
+    "keyword": "Feature",
+    "uri": "file:src/main/resources/Features/Photo.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-10-13T07:10:06.906Z",
+        "line": 2,
+        "name": "I want to add the status for the new employee",
+        "description": "",
+        "id": "add-status;i-want-to-add-the-status-for-the-new-employee",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 117663187500,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "Already logged into Orange Hrm and inside Add Employee Section",
+            "match": {
+              "location": "StepDefinition.StatusDef.already_logged_into_orange_hrm_and_inside_add_employee_section()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 501658400,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I entered Full Name, Employee ID, Add Photograph, Click on Login Details",
+            "match": {
+              "location": "StepDefinition.StatusDef.i_entered_full_name_employee_id_add_photograph_click_on_login_details()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 422386000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Enter Username, Password, Confirm Password and select status as Enabled",
+            "match": {
+              "location": "StepDefinition.StatusDef.enter_username_password_confirm_password_and_select_status_as_enabled()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 102723500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Click on Save Button",
+            "match": {
+              "location": "StepDefinition.StatusDef.click_on_save_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "New Employee should add",
+            "match": {
+              "location": "StepDefinition.StatusDef.new_employee_should_add()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Add Status",
+    "description": "",
+    "id": "add-status",
+    "keyword": "Feature",
+    "uri": "file:src/main/resources/Features/Status.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-10-13T07:12:05.607Z",
+        "line": 2,
+        "name": "I want to add the username for the new employee",
+        "description": "",
+        "id": "add-username;i-want-to-add-the-username-for-the-new-employee",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 173743987500,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "Logged in Orange Hrm and inside Add Employee Section",
+            "match": {
+              "location": "StepDefinition.UNameDef.logged_in_orange_hrm_and_inside_add_employee_section()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 590936100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I enter Full Name, Employee ID, Add Photograph, Click on Login Details",
+            "match": {
+              "location": "StepDefinition.LoginDetDef.i_enter_full_name_employee_id_add_photograph_click_on_login_details()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 208441000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Enter the Username",
+            "match": {
+              "location": "StepDefinition.UNameDef.enter_the_username()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 96741800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Click Save Button",
+            "match": {
+              "location": "StepDefinition.UNameDef.click_save_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "New Employee should be added here",
+            "match": {
+              "location": "StepDefinition.UNameDef.new_employee_should_be_added_here()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Add Username",
+    "description": "",
+    "id": "add-username",
+    "keyword": "Feature",
+    "uri": "file:src/main/resources/Features/Uname.feature",
+    "tags": []
+  }
+]

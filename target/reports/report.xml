@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="7" time="460.307">
+    <testcase classname="Employee ID" name="I want to enter Employee ID." time="35.274">
+        <system-out><![CDATA[Given I have already logged in OrangeHrm and opened Add Employee Section....passed
+When I have entered Full Name and Employee ID...............................passed
+And I clicked on Save Button................................................passed
+Then New Employee should get added..........................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Login Details Checkbox" name="I want to check the Login Details Checkbox" time="29.424">
+        <system-out><![CDATA[Given Already logging in Orange Hrm and inside Add Employee Section.........passed
+When I enter Full Name, Employee ID, Add Photograph, Click on Login Details.passed
+And Clicking on Save Button.................................................passed
+Then New Employee should be adding here.....................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Full Name" name="I want to add First Name, Middle Name, Last Name" time="37.41">
+        <system-out><![CDATA[Given Already logged in OrangeHrm and opened Add Employee Section...........passed
+When I enter First Name, Middle Name, Last Name.............................passed
+And I click on Save Button..................................................passed
+Then New Employee should be added...........................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Add Password" name="I want to add the password for the new employee" time="64.231">
+        <system-out><![CDATA[Given I am already logged in Orange Hrm and inside Add Employee Section.....passed
+When I enter Full Name, Employee ID, Add Photograph, Click on Login Details.passed
+And Enter Username, Password and Confirm Password...........................passed
+And I am Clicking on Save Button............................................passed
+Then New Employee should get add here.......................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Photograph" name="I want to add Photograph" time="0.001">
+        <system-out><![CDATA[Given Already log in Orange Hrm and inside Add Employee Section.............passed
+When I enter Full Name, Employee ID, Add Photograph.........................passed
+And I Clicking on Save Button...............................................passed
+Then New Employee should add here...........................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Add Status" name="I want to add the status for the new employee" time="118.691">
+        <system-out><![CDATA[Given Already logged into Orange Hrm and inside Add Employee Section........passed
+When I entered Full Name, Employee ID, Add Photograph, Click on Login Details.passed
+And Enter Username, Password, Confirm Password and select status as Enabled.passed
+And Click on Save Button....................................................passed
+Then New Employee should add................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Add Username" name="I want to add the username for the new employee" time="174.641">
+        <system-out><![CDATA[Given Logged in Orange Hrm and inside Add Employee Section..................passed
+When I enter Full Name, Employee ID, Add Photograph, Click on Login Details.passed
+And Enter the Username......................................................passed
+And Click Save Button.......................................................passed
+Then New Employee should be added here......................................passed
+]]></system-out>
+    </testcase>
+</testsuite>
